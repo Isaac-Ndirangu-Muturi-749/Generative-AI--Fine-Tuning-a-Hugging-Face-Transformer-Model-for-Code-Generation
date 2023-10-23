@@ -57,7 +57,7 @@ This project explores the fine-tuning of Hugging Face's transformer model for co
 ### Installation
 1. Clone the repository.
    ```sh
-   git clone https://github.com/your_username/your_repo.git
+   git clone https://github.com/Isaac-Ndirangu-Muturi-749/Generative-AI--Fine-Tuning-a-Hugging-Face-Transformer-Model-for-Code-Generation.git
    ```
 2. Install the required libraries.
    ```sh
@@ -119,7 +119,8 @@ PROMPT 1:
 Add 5 and 7.
 RESPONSE:
 Add 5 and 7.
-#
+
+```
 print(f"The sum of the numbers is {sum(numbers)}")
 
 n = int(input("Enter the number of elements: "))
@@ -127,13 +128,13 @@ for i in range(0, n):
     print("Element: ", end="")
 
     element = input()
-
+```
 
 PROMPT 2:
 Multiply 3 by 9.
 RESPONSE:
 Multiply 3 by 9.
-
+```
 # def multiply(a, b):
     
 def multiply_3(x, y):
@@ -142,46 +143,46 @@ def multiply_3(x, y):
 
 
 print(multipy(3, 9))
-
+```
 
 PROMPT 3:
 Write code to print 'Hello, world!' in Python.
 RESPONSE:
 Write code to print 'Hello, world!' in Python.
-#
+```#
 print('Hello', 'world!')
 
 """
 Output:
 Hello world!
  """
-
+```
 
 PROMPT 4:
 Calculate the square root of 16.
 RESPONSE:
 Calculate the square root of 16.
-
+```
 # In[ ]:
 
 
 import math
 print(math.sqrt(16))
-
+```
 
 
 PROMPT 5:
 Find the result of 12 divided by 4.
 RESPONSE:
 Find the result of 12 divided by 4.
-
+```
 # In[ ]:
 
 
 def divide(x, y):
     return x / y
 print(divide(12, 4))
-
+```
 
 
 PROMPT 6:
@@ -189,6 +190,7 @@ Write a Python program to check if a number is even or odd.
 RESPONSE:
 Write a Python program to check if a number is even or odd.
 
+```
 # def is_even(num):
     
  # if num % 2 == 0:
@@ -208,6 +210,8 @@ def isOdd(number):
    else:  
 
        return  False
+```
+
 
 ## Conclusion:
 
